@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Empleados Macdonals</title>
+</head>
+<body>
+	<header class="header">
+		 <div class="container logo-nav-container">
+		 	<img src="img/McDonalds-logo.png" width="80" height="80">
+		 	<span class="menu-icon">MENÚ</span>
+		 	<nav class="navigation">
+		 		<ul>
+		 			<li><a href="index.html">INICIO</a></li>
+		 			<li><a href="mision_y_vision.html">MISIÓN Y VISIÓN</a></li>
+		 			<li><a href="informacion.html">INFORMACIÓN</a></li>
+		 			<li><a href="contacto.html">CONTACTO</a></li>
+		 		</ul>
+		 	</nav>
+		 </div>
+	</header>
+	<main class="main">
+		<div class="slider">
+			<ul>
+				<li>
+  <img src="img/mac1.jpg" alt="Slider 1">
+ </li>
+				<li>
+  <img src="img/mac2.jpg" alt="Slider 2">
+</li>
+				<li>
+  <img src="img/mac3.jpg" alt="Slider 3">
+</li>
+				<li>
+  <img src="img/mac4.jpg" alt="Slider 4">
+</li>
+			</ul>
+		</div>
+	</main>
+	<section class="section1" id="">
+			<div class="row">
+				<div class="mitad" style="background: #ffc629;">
+					<h2>PARA EL EMPLEADO</h2>
+					<p>
+						En Macdonals nos precupamos por el bien de cada uno de nuestros colaboradores, con la intención de mejorar la comunciación hemos creado este espacio para resolver dudas comunes o bien si es necesario brindar atención personalizada a cualquier inquietud que puedan tener.
+					</p>
+					<br>
+				</div>
+				<div class="mitad" style="background: #f00;">
+					<h2>UTILIDAD</h2>
+					<p>
+						Este medio sera de utilidad no solo para el empleado sino que a su vez para el mejoramiento de la empresa; utilizaremos la información aqui recabada para estar en constante mejoramiento.
+					</p>
+				</div>	
+			</div>
+	</section>
+	<section class="section section2" id="funcionalidad">
+		<div class="container">
+			<h2>MEJORAMIENTO DEL TRATO HACIA EL EMPLEADO</h2>
+		<p>
+			En los ultimos años hemos notado la inconformidad de nuestros colaboradores con ciertos procesos internos y debido a esta constante preocupación hemos recabado información para fomentar un ambiente agradable para todos dentro de la empresa.
+		</p>
+		</div>
+	</section>
+	<section class="section section3" id="funcionalidad">
+		<div class="container">
+			<h2>OBJETIVO</h2>
+		<p>
+			Nuestro objetivo principal en esta pagina es que todos los colaboradores que tengan alguna inconformidad pueda comunicarse y darle la atención requerida a la situación presentada. Al mismo tiempo buscar el origen de cada una de estas inconformidades para el mejoramiento de la empresa.
+		</p>
+		</div>
+	</section>
+	<section class="section4" id="bases de datos">
+			<div class="row">
+				<div class="mitad" style="background: #f00;"><br>
+					<h2>ATENCIÓN AL EMPLEADO</h2>
+					<p>
+						Desde que nos percatamos de la creciente inconformidad de nuestros colaboradores hemos trabajado en mejorar, asi que desde 2017 que comenzamos un nuevo plan de acción para el mejoramiento de la empresa hemos visto una reducción notable de las quejas presentadas por los trabajadores.
+					</p>
+					<p>
+						En 2017 que se empezo con el plan de mejoramiento se recibieron un total de 7855 quejas por diversas situaciones por parte de los empleados, para el año 2020 hemos logrado reducir en más del 50% las quejas presentadas teniendo solamente 3129 quejas presentadas.
+					</p>
+					<p>
+						Con esto buscamos reducir aún más el porcentaje de inconformidad identificando los problemas principales que presentan nuestros colaboradores y buscando la solución más eficiente para estas.
+					</p>
+				</div>
+				<div class="mitad" style="background: #ffc629;">
+					<h2>GRAFICO DE QUEJAS PRESENTADAS ENTRE 2017 A 2020</h2>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    
+        <canvas id="myChart" width="400" height="400"></canvas>
+    
+    <script>
+        var ctx= document.getElementById("myChart").getContext("2d");
+        var myChart= new Chart(ctx,{
+            type:"pie",
+            data:{
+                labels:['2017','2018','2019','2020'],
+                datasets:[{
+                        label:'Num datos',
+                        data:[7855,7661,5654,3529],
+                        backgroundColor:[
+                            'rgb(66, 134, 244,0.5)',
+                            'rgb(74, 135, 72,0.5)',
+                            'rgb(229, 89, 50,0.5)',
+                            'rgb(255, 0, 0,0.5)'
+                        ]
+                }]
+            },
+            options:{
+                scales:{
+                    yAxes:[{
+                            ticks:{
+                                beginAtZero:true
+                            }
+                    }]
+                }
+            }
+        });
+    </script>
+    <br>
+				</div>	
+			</div>
+	</section>
+	<section class="section section5" id="funcionalidad">
+		<div class="container">
+			<h2>Servicio personalizado</h2>
+			<br>
+			<p>Llene este formulario y un asesor se comunicara con usted lo más pronto posible, asi podremos ayudarlo con cualquier duda o inconveniente que posea de la manera más eficiente posible.</p>
+			<br>
+			<form>
+  <p>Nombre  :<br> <input type="text" size="35"></p>
+  <p>Puesto  :<br> <input type="text" size="35"></p>
+  <p>Telefono:<br> <input type="text" size="35"></p>
+    <input type="reset" value="Enviar" class="boton">
+  </p>
+</form>
+</div>
+<img src="img/McDonalds-logo.png" width="120" height="120" alt="McDonald's ©" align="right" style="margin-bottom: 12px;
+    margin-right: 12px;">
+</section>
+	<footer class="footer">
+		<div class="row">
+			<div class="mitad">
+			<p>McDonald's ©</p>
+		    </div>
+		    <div class="mitad">
+			<a href="https://www.facebook.com/Mcdonalds.Guatemala/"><img src="img/facebook.png" width="50" height="50"></a>
+			<a href="https://www.instagram.com/mcguate/"><img src="img/instagram.png" width="50" height="50"></a>
+			<a href="https://twitter.com/McGuate"><img src="img/twitter.png" width="50" height="50"></a>
+			<a href="https://www.youtube.com/user/GTMcDonalds"><img src="img/youtube.png" width="50" height="50"></a>
+		    </div>
+		</div>
+
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/js.js"></script>
+</body>
+</html>
